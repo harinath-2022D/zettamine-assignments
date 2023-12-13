@@ -24,8 +24,9 @@ public class SerializeProduct {
 			System.out.print("Enter no of products: ");
 			int noOfProducts = sc.nextInt();
 			sc.nextLine();
+			int temp = noOfProducts;
 			while(noOfProducts != 0) {
-			System.out.print("Enter product id & product name of Product-2: ");
+			System.out.print("Enter product id & product name of Product-"+ (temp- noOfProducts) + 1 + ": ");
 			String productInfo = sc.nextLine();
 			
 			String[] arr = productInfo.split(" ");

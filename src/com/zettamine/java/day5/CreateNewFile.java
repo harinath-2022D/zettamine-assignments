@@ -22,7 +22,7 @@ public class CreateNewFile {
 			System.out.println("sub dir java already exists");
 		}
 		
-		file = new File(file.getAbsolutePath()+"\\java.txt");
+		file = new File(file.getAbsolutePath()+"\\javanotes2.txt");
 		try {
 			status = file.createNewFile();
 			if(status) {
